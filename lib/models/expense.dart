@@ -18,7 +18,7 @@ class Expense {
   }) : id = uuid.v4();
   final String id;
   final String title;
-  final String amount;
+  final double amount;
   final DateTime date;
   final Category category;
 }
